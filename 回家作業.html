@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            font-size:24px;
+            filter: hue-rotate(300deg);
+            position: relative;
+            transition: 0.5s;
+        }
+        body,
+        html{
+            height: 100%;
+        }
+        .body{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container{
+            width: 1400px;
+            height: 590px;
+            display: flex;
+            background:linear-gradient(outside -360deg,grey,lightgrey);
+            -webkit-box-reflect:below 10px linear-gradient(transparent,rgba(0,0,0,0.3));
+            padding-bottom: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -300px 0 0 -700px;
+            box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.1);
+            
+
+        }
+        .box{
+        border: 1px solid rgba(238, 238, 238, 0.562);
+        padding: 30px;
+         width: 350px;
+         height: 630px;
+         
+         
+
+
+
+        }
+        .pic{
+         border-radius: 50%;
+         padding: 50px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .text{
+            color:grey;
+        }
+        .bottombox{
+            height: 25%;
+            width: 100%;
+            background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.01));
+            position: relative;
+            margin-top: -100px;
+            position: absolute;
+            top: 50%;
+            margin: 350px 0 0 0px;
+        }
+
+        div:hover{
+            background: rgba(3,244,15,0.5);
+            text-shadow: 
+            1px 1px 1px rgba(0,0,0,0.5),
+            0px 0px 5px rgba(3,244,15,1),
+            0px 0px 25px #03f40f;
+     
+            box-shadow: 
+            0 0 5px rgba(3,244,15,1),
+            0 0 25px rgba(3,244,15,0.8),
+            0 0 50px rgba(3,244,15,0.5),
+            0 0 150px rgba(3,244,15,0.3);
+
+
+
+        }
+        img:hover{
+            transform:translate(-50%,-50%) scale(2) rotate(360deg);
+
+        }
+        div:hover span:{
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 1px;
+          background:linear-gradient(90deg,#03f40f,#03f40f);  
+        }
+        .doraemo{
+    width: 211px;
+    height: 500px;
+    background:url('123.png') no-repeat 500px top ;
+    animation:run 0.5s steps(6,start)infinite; 
+}
+
+@keyframes run{
+    0%{
+        /* background-position: 0px 0px; */
+        background-position: 200px 0px;
+    }
+    100%{
+        /* background-position: -1500px 0px; */
+        background-position: -1600px;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div href="" class="container">
+            <div style='box-shadow:inset -30px 0px 8px 0.8px rgba(0,0,0,0.07)' class="box">
+            <div class="pic">
+            <img style=border-radius:50% src="https://picsum.photos/130/130/?random=1" ></div>
+            <div class="text">
+            <p>檢查寫出來註冊時間的是休閒有人信心當我看來第二天，夢想她說都有心理本站一句話住宅留下成本並且，問題男女目錄報名，主任物品選項配合防止經歷能學到可以說電視是個預。</p></div>
+        </div>
+    <div style='box-shadow:inset -30px 0px 8px 0.8px rgba(0,0,0,0.07),inset 30px 0px 8px 1px rgba(0,0,0,0.05)' class="box">
+        <div class="pic">
+        <img style=border-radius:50% src="https://picsum.photos/130/130/?random=1" ></div>
+        <div class="text">
+        <p>檢查寫出來註冊時間的是休閒有人信心當我看來第二天，夢想她說都有心理本站一句話住宅留下成本並且，問題男女目錄報名，主任物品選項配合防止經歷能學到可以說電視是個預。
+        </p></div>
+    </div>
+    <div style='box-shadow:inset -30px 0px 8px 0.8px rgba(0,0,0,0.07),inset 30px 0px 8px 1px rgba(0,0,0,0.05)'  class="box">
+        <div class="pic">
+        <img style=border-radius:50% src="https://picsum.photos/130/130/?random=1" ></div>
+        <div class="text">
+        <p>檢查寫出來註冊時間的是休閒有人信心當我看來第二天，夢想她說都有心理本站一句話住宅留下成本並且，問題男女目錄報名，主任物品選項配合防止經歷能學到可以說電視是個預。</p></div>
+    </div>
+    <div style='box-shadow:inset 30px 0px 8px 1px rgba(0,0,0,0.05)'class="box">
+        <div class="pic">
+        <img style=border-radius:50% src="https://picsum.photos/130/130/?random=1" ></div>
+        <div class="text">
+        <p>檢查寫出來註冊時間的是休閒有人信心當我看來第二天，夢想她說都有心理本站一句話住宅留下成本並且，問題男女目錄報名，主任物品選項配合防止經歷能學到可以說電視是個預。</p></div>
+    </div>
+        
+    </div>
+    <div class="bottombox"></div>
+
+    <section>
+        <div class="doraemo"></div>
+    </section>
+    
+</body>
+</html>
